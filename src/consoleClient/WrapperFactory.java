@@ -1,0 +1,84 @@
+package consoleClient;
+
+import wrapper.EvA2Wrapper;
+import wrapper.EvA2WrapperConfig;
+import wrapper.ForwardSelectionWrapper;
+import wrapper.ForwardSelectionWrapperConfig;
+import wrapper.WrapperBase;
+import wrapper.WrapperConfigBase;
+import wrapper.WrapperTypes;
+import wrapper.crossvalidation.KFoldCrossValidation;
+import wrapper.crossvalidation.KFoldCrossValidationConfig;
+import wrapper.crossvalidation.classifier.CSVCClassifier;
+import wrapper.crossvalidation.classifier.CSVCClassifierConfig;
+import wrapper.crossvalidation.classifier.ClassifierTypes;
+import wrapper.performance.Accuracy;
+import wrapper.performance.MCCPerformance;
+import wrapper.performance.PerformanceTypes;
+import dataStructures.FeatureData;
+import eva2.server.go.operators.terminators.GenerationTerminator;
+
+public class WrapperFactory {
+
+	
+	public static WrapperBase createWrapper(FeatureData data,
+											WrapperTypes wrapperT, 
+											PerformanceTypes perform, 
+											ClassifierTypes classify,
+											int fold, 
+											int termination,
+											int population,
+											int seed) {
+		
+		
+		/*Init*/
+		WrapperConfigBase wrapperConfig = new ForwardSelectionWrapperConfig(data);
+		WrapperBase wrapper = new ForwardSelectionWrapper(new ForwardSelectionWrapperConfig(wrapperConfig));
+		KFoldCrossValidationConfig crossValConfig = new KFoldCrossValidationConfig();
+		
+		/*Get selected Items and declare components in regard of the selection*/
+		switch (perform) {
+		case MCC : 
+			wrapperConfig.setPerformance(new MCCPerformance()); 
+			break;
+		
+		case ACCURACY :
+			wrapperConfig.setPerformance(new Accuracy());	
+			break;
+		}
+		
+		switch (classify) {
+		case CSVC : 
+			crossValConfig.setClassifier(new CSVCClassifier(new CSVCClassifierConfig()));
+			break;
+		
+		}
+		
+		// Get selected fold from GUI and set configData
+		crossValConfig.setFold(fold);
+		// set output to text area
+		wrapperConfig.setCrossVal(new KFoldCrossValidation(crossValConfig));
+		
+		
+		switch(wrapperT) {
+		case FORWARDSELECTION :
+			wrapper = new ForwardSelectionWrapper(new ForwardSelectionWrapperConfig(wrapperConfig));
+			break;
+		
+		case EVA : 
+			//Create config by reading parameters out of GUI (parent)
+			EvA2WrapperConfig evaConfig = new EvA2WrapperConfig(wrapperConfig);
+			evaConfig.setPopulation(population); //Add population
+			evaConfig.setRandomSeed(seed); // Set seed
+			evaConfig.setTerminator(new GenerationTerminator(termination));
+			wrapper = new EvA2Wrapper(evaConfig);
+			break;
+			
+		 
+		}
+		
+		
+		
+		return wrapper;
+	}
+}

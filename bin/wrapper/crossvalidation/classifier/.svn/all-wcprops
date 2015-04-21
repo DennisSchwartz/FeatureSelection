@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/R4da598c71e832/!svn/ver/239/FeatureSelection/src/wrapper/crossvalidation/classifier
+END
+CSVCClassifierConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/R4da598c71e832/!svn/ver/239/FeatureSelection/src/wrapper/crossvalidation/classifier/CSVCClassifierConfig.java
+END
+CSVCClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/R4da598c71e832/!svn/ver/239/FeatureSelection/src/wrapper/crossvalidation/classifier/CSVCClassifier.java
+END
+ClassifierTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/R4da598c71e832/!svn/ver/217/FeatureSelection/src/wrapper/crossvalidation/classifier/ClassifierTypes.java
+END
+ClassifierConfigBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/R4da598c71e832/!svn/ver/239/FeatureSelection/src/wrapper/crossvalidation/classifier/ClassifierConfigBase.java
+END
+ClassifierBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/R4da598c71e832/!svn/ver/239/FeatureSelection/src/wrapper/crossvalidation/classifier/ClassifierBase.java
+END

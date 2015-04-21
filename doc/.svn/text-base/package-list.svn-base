@@ -1,0 +1,17 @@
+consoleClient
+controller
+controller.components
+dataStructures
+gui
+gui.components
+gui.components.resultTabs
+gui.stream
+logger
+reader
+wrapper
+wrapper.crossvalidation
+wrapper.crossvalidation.classifier
+wrapper.filter
+wrapper.performance
+x_playground
+x_playground.statistics

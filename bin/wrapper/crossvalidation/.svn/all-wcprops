@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/R4da598c71e832/!svn/ver/260/FeatureSelection/src/wrapper/crossvalidation
+END
+KFoldCrossValidationConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/R4da598c71e832/!svn/ver/239/FeatureSelection/src/wrapper/crossvalidation/KFoldCrossValidationConfig.java
+END
+KFoldCrossValidation.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/R4da598c71e832/!svn/ver/260/FeatureSelection/src/wrapper/crossvalidation/KFoldCrossValidation.java
+END
+CrossValidationConfigBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/R4da598c71e832/!svn/ver/239/FeatureSelection/src/wrapper/crossvalidation/CrossValidationConfigBase.java
+END
+CrossValidationBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/R4da598c71e832/!svn/ver/260/FeatureSelection/src/wrapper/crossvalidation/CrossValidationBase.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/R4da598c71e832/!svn/ver/265/FeatureSelection/src/dataStructures
+END
+FeatureData.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/R4da598c71e832/!svn/ver/247/FeatureSelection/src/dataStructures/FeatureData.java
+END
+ResultsData.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/R4da598c71e832/!svn/ver/265/FeatureSelection/src/dataStructures/ResultsData.java
+END
+EvA2ResultsData.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/R4da598c71e832/!svn/ver/265/FeatureSelection/src/dataStructures/EvA2ResultsData.java
+END
+ForwardSelectionResultsData.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/R4da598c71e832/!svn/ver/265/FeatureSelection/src/dataStructures/ForwardSelectionResultsData.java
+END
+SubsetPerformanceData.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/R4da598c71e832/!svn/ver/261/FeatureSelection/src/dataStructures/SubsetPerformanceData.java
+END
+ConfusionMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/R4da598c71e832/!svn/ver/188/FeatureSelection/src/dataStructures/ConfusionMatrix.java
+END

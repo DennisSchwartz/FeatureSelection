@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/wrapper/crossvalidation/classifier
+END
+ClassifierTypes.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/wrapper/crossvalidation/classifier/ClassifierTypes.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/wrapper/crossvalidation/classifier/package-frame.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/wrapper/crossvalidation/classifier/package-tree.html
+END
+ClassifierConfigBase.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/wrapper/crossvalidation/classifier/ClassifierConfigBase.html
+END
+ClassifierBase.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/wrapper/crossvalidation/classifier/ClassifierBase.html
+END
+CSVCClassifierConfig.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/wrapper/crossvalidation/classifier/CSVCClassifierConfig.html
+END
+CSVCClassifierJUnit.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/wrapper/crossvalidation/classifier/CSVCClassifierJUnit.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/wrapper/crossvalidation/classifier/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/wrapper/crossvalidation/classifier/package-summary.html
+END
+CSVCClassifier.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/wrapper/crossvalidation/classifier/CSVCClassifier.html
+END

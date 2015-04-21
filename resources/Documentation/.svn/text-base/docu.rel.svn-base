@@ -1,0 +1,48 @@
+;; RefTeX parse info file
+;; File: /Users/julianschwab/Documents/ProgrammProj/FeatureSelection/resources/Documentation/docu.tex
+;; User: julianschwab (Julian Schwab)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi nil)
+
+(bibview-cache)
+
+(master-dir . "/Users/julianschwab/Documents/ProgrammProj/FeatureSelection/resources/Documentation/")
+
+(label-numbers ("eq:" . 1))
+
+(bof "/Users/julianschwab/Documents/ProgrammProj/FeatureSelection/resources/Documentation/docu.tex")
+
+(toc "toc" "    1 Input Format" "/Users/julianschwab/Documents/ProgrammProj/FeatureSelection/resources/Documentation/docu.tex" nil 2 "1" "\\section{Input Format}" 2238)
+
+(toc "toc" "    2 Programm Parameters" "/Users/julianschwab/Documents/ProgrammProj/FeatureSelection/resources/Documentation/docu.tex" nil 2 "2" "\\section{Programm Parameters}" 3273)
+
+(toc "toc" "      2.1 Wrapper" "/Users/julianschwab/Documents/ProgrammProj/FeatureSelection/resources/Documentation/docu.tex" nil 3 "2.1" "\\subsection{Wrapper}" 3362)
+
+(toc "toc" "        2.1.1 Forward Selection" "/Users/julianschwab/Documents/ProgrammProj/FeatureSelection/resources/Documentation/docu.tex" nil 4 "2.1.1" "\\subsubsection{Forward Selection}" 3483)
+
+(toc "toc" "        2.1.2 EvA2" "/Users/julianschwab/Documents/ProgrammProj/FeatureSelection/resources/Documentation/docu.tex" nil 4 "2.1.2" "\\subsubsection{EvA2}" 3727)
+
+(toc "toc" "      2.2 Performance" "/Users/julianschwab/Documents/ProgrammProj/FeatureSelection/resources/Documentation/docu.tex" nil 3 "2.2" "\\subsection{Performance}" 4117)
+
+(toc "toc" "        2.2.1 Matthews Correlation Coefficient" "/Users/julianschwab/Documents/ProgrammProj/FeatureSelection/resources/Documentation/docu.tex" nil 4 "2.2.1" "\\subsubsection{Matthews Correlation Coefficient}" 4784)
+
+("eq:1" "e" nil "/Users/julianschwab/Documents/ProgrammProj/FeatureSelection/resources/Documentation/docu.tex" nil "")
+
+(toc "toc" "      2.3 Classifier" "/Users/julianschwab/Documents/ProgrammProj/FeatureSelection/resources/Documentation/docu.tex" nil 3 "2.3" "\\subsection{Classifier}" 5675)
+
+(toc "toc" "      2.4 Crossvalidation" "/Users/julianschwab/Documents/ProgrammProj/FeatureSelection/resources/Documentation/docu.tex" nil 3 "2.4" "\\subsection{Crossvalidation}" 5827)
+
+(toc "toc" "    3 Console Usage" "/Users/julianschwab/Documents/ProgrammProj/FeatureSelection/resources/Documentation/docu.tex" nil 2 "3" "\\section{Console Usage}" 6212)
+
+(toc "toc" "    4 GUI Usage" "/Users/julianschwab/Documents/ProgrammProj/FeatureSelection/resources/Documentation/docu.tex" nil 2 "4" "\\section{GUI Usage}" 7421)
+
+(eof "/Users/julianschwab/Documents/ProgrammProj/FeatureSelection/resources/Documentation/docu.tex")
+))
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="MacRoman" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2011-06-29T12:33:09</date>
+  <millis>1309343589851</millis>
+  <sequence>0</sequence>
+  <logger>gui.FeatureSelectionLauncher</logger>
+  <level>INFO</level>
+  <class>gui.FeatureSelectionLauncher</class>
+  <method>main</method>
+  <thread>10</thread>
+  <message>GUI started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="MacRoman" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2011-06-29T12:33:53</date>
+  <millis>1309343633956</millis>
+  <sequence>0</sequence>
+  <logger>gui.FeatureSelectionLauncher</logger>
+  <level>INFO</level>
+  <class>gui.FeatureSelectionLauncher</class>
+  <method>main</method>
+  <thread>10</thread>
+  <message>GUI started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="MacRoman" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2011-06-29T12:36:32</date>
+  <millis>1309343792380</millis>
+  <sequence>0</sequence>
+  <logger>gui.FeatureSelectionLauncher</logger>
+  <level>INFO</level>
+  <class>gui.FeatureSelectionLauncher</class>
+  <method>main</method>
+  <thread>10</thread>
+  <message>GUI started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="MacRoman" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2011-06-29T12:43:14</date>
+  <millis>1309344194219</millis>
+  <sequence>0</sequence>
+  <logger>gui.FeatureSelectionLauncher</logger>
+  <level>INFO</level>
+  <class>gui.FeatureSelectionLauncher</class>
+  <method>main</method>
+  <thread>10</thread>
+  <message>GUI started</message>
+</record>
+</log>

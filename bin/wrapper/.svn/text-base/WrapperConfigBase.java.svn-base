@@ -1,0 +1,97 @@
+package wrapper;
+
+import java.io.PrintStream;
+
+import dataStructures.FeatureData;
+
+import wrapper.crossvalidation.CrossValidationBase;
+import wrapper.crossvalidation.KFoldCrossValidation;
+import wrapper.crossvalidation.KFoldCrossValidationConfig;
+import wrapper.filter.BitSetFilter;
+import wrapper.filter.FilterBase;
+import wrapper.performance.MCCPerformance;
+import wrapper.performance.PerformanceI;
+
+public abstract class WrapperConfigBase {
+	
+	protected FeatureData data;
+	
+	protected FilterBase filter;
+	protected CrossValidationBase crossVal = new KFoldCrossValidation(new KFoldCrossValidationConfig());;
+	protected PerformanceI performance = new MCCPerformance();
+	
+	protected PrintStream output = System.out;
+
+	public WrapperConfigBase(FeatureData data) {
+		this.data = data;
+		this.filter = new BitSetFilter(data);
+	}
+	
+	public String toString() {
+		String res = "";
+		res += this.getWrapperInfo() + "\n\n";
+		res += this.performance.toString() + "\n\n";
+		res += this.crossVal.getConfig().getClassifier().getConfig().toString() + "\n\n";
+		res += this.crossVal.getConfig().toString();
+		return res;
+	}
+	
+	public abstract String getWrapperInfo();
+	
+	/**
+	 * @return the filter
+	 */
+	public FilterBase getFilter() {
+		return filter;
+	}
+	/**
+	 * @return the crossVal
+	 */
+	public CrossValidationBase getCrossVal() {
+		return crossVal;
+	}
+	/**
+	 * @return the performance
+	 */
+	public PerformanceI getPerformance() {
+		return performance;
+	}
+	/**
+	 * @return the output
+	 */
+	public PrintStream getOutput() {
+		return output;
+	}
+	/**
+	 * @return the data
+	 */
+	public FeatureData getData() {
+		return data;
+	}
+	
+	/**
+	 * @param filter the filter to set
+	 */
+	public void setFilter(FilterBase filter) {
+		this.filter = filter;
+	}
+	/**
+	 * @param crossVal the crossVal to set
+	 */
+	public void setCrossVal(CrossValidationBase crossVal) {
+		this.crossVal = crossVal;
+	}
+	/**
+	 * @param performance the performance to set
+	 */
+	public void setPerformance(PerformanceI performance) {
+		this.performance = performance;
+	}
+	/**
+	 * @param output the output to set
+	 */
+	public void setOutput(PrintStream output) {
+		this.output = output;
+	}
+	
+}

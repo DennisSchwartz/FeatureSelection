@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/R4da598c71e832/!svn/ver/258/FeatureSelection/src/wrapper/filter
+END
+BitSetFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/R4da598c71e832/!svn/ver/258/FeatureSelection/src/wrapper/filter/BitSetFilter.java
+END
+FilterBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/R4da598c71e832/!svn/ver/109/FeatureSelection/src/wrapper/filter/FilterBase.java
+END
+OddEvenFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/R4da598c71e832/!svn/ver/109/FeatureSelection/src/wrapper/filter/OddEvenFilter.java
+END

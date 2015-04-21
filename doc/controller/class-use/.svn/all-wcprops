@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/controller/class-use
+END
+WrapperEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/controller/class-use/WrapperEvent.html
+END
+WrapperListener.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/controller/class-use/WrapperListener.html
+END
+MainController.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/controller/class-use/MainController.html
+END
+BestSubsetEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/controller/class-use/BestSubsetEvent.html
+END
+FeatureDataListener.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/controller/class-use/FeatureDataListener.html
+END
+BestSubsetListener.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/controller/class-use/BestSubsetListener.html
+END
+FeatureDataEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/R4da598c71e832/!svn/ver/255/FeatureSelection/doc/controller/class-use/FeatureDataEvent.html
+END

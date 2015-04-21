@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Post-processing parameters</title>
+</head>
+<body>
+<h1 align="center">Post-processing parameters</h1>
+<center>
+</center>
+<p>
+If post processing is activated, it is performed after every
+optimization run and it may be triggered using the solutions of the last optimization run by
+the "Post process" button.
+Post processing performs both accuracy checks of the delivered solutions and a clustering/refinement of the
+solutions with a local search method. The solutions are clustered to remove redundancy and the remaining
+best cluster representatives are considered. </p>
+<p>For the accuracy evaluation, multiple thresholds may be used. The solutions are then clustered using a distance
+of 0.1 times the respective accuracy threshold and a Nelder-Mead-Simplex search is initialized in close vicinity.
+As soon as the NMS search fails to produce an improved solution at a distance larger than the accuracy threshold
+from the original positions, the solution is considered to be accurate by that threshold. </p>        
+<p>Besides the accuracy, a refinement can be performed using several local search methods. After the refinement,
+the set is clustered again to filter out solutions which converged on the same optimum during the local search.
+</p>
+<p>
+The results of the post processing are displayed in the text window (and/or stats output file) and show a coarse
+distribution of the final solutions as well as the explicit vectors of the n best solutions obtained, where n
+is set as printNBest parameter.
+If post-processing is started several times in a row, the initial solution set is the same, namely the one found
+by optimization. Thereby one can guess, e.g., how close the solutions are to each other and how closely they
+have converged during optimization itself.
+</p>
+
+</body>
+</html> 

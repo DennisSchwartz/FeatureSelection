@@ -1,0 +1,52 @@
+10
+
+dir
+276
+https://cis.informatik.uni-tuebingen.de/svn/R4da598c71e832/FeatureSelection/src
+https://cis.informatik.uni-tuebingen.de/svn/R4da598c71e832
+
+
+
+2011-07-06T09:43:18.115630Z
+276
+se-ss-11.zxmty06
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+306acf76-1127-4f1b-8af4-30131f42fad4
+
+consoleClient
+dir
+
+controller
+dir
+
+dataStructures
+dir
+
+gui
+dir
+
+logger
+dir
+
+reader
+dir
+
+wrapper
+dir
+
+x_playground
+dir
+

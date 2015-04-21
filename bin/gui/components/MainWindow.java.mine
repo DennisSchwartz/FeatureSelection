@@ -1,0 +1,135 @@
+package gui.components;
+
+import gui.stream.TextAreaStream;
+
+import java.awt.GridBagLayout;
+import java.awt.Image;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+
+import controller.FeatureDataEvent;
+import controller.FeatureDataListener;
+import controller.MainController;
+
+
+
+/**
+ * MainWindow is the main frame of our GUI. This window is what we see, if we start the program via GUI.
+ * It contains:
+ *  a menu, where e.g the file that is to process, can be chosen,
+ *  a console, where the output is shown,
+ *  a ContentPane where the different parameters can be set,
+ *  a ControlPane where the process can be started/stopped. 
+ *  a ResultsView window which will pop up upon clicking the start button
+ * @author julianschwab, Johannes Schoellhorn, Dennis Schwartz
+ *
+ */
+
+public class MainWindow extends JFrame implements FeatureDataListener {
+	
+
+	
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	MainController controller;
+
+	Menu menu;
+	public JTextArea console;
+	public ContentPane contentPane;
+	public ControlPane controlPane;
+	JFrame resultsView;
+	ImageIcon logo = new ImageIcon("resources/SoPraLogo.jpg");
+	Image taskbarLogo;
+	JLabel logoLabel;
+	JLabel filename;
+	/**
+	 * Create MainWindow with the name "Feature Selection". 
+	 * We use GridBagLayout for this frame.
+	 */
+	public MainWindow(){
+		super("Feature Selection");
+		init();
+		/*Add results hidden results window*/
+		
+	}
+	
+
+	
+	/**
+	 * Initialize components in MainWindow
+	 */
+	private void init(){
+		
+		/*Set contollers*/
+		console = new JTextArea(5,0);
+		this.filename = new JLabel();
+		this.logoLabel = new JLabel(this.logo);
+		this.controller = new MainController(new TextAreaStream(this.console));
+		this.menu = new Menu(this.controller);
+		
+		
+		/*Layout and other general settings for the frame*/
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		GridBagLayout gbl = new GridBagLayout();
+		gbl.columnWidths = new int[1];	//Layout should have 1 column
+		gbl.rowHeights = new int[3];	// and 3 rows
+		this.setLayout(gbl);
+		
+		
+		this.setJMenuBar(menu);	//Register Menubar
+		
+		/*Add content at the different positions*/
+		Components.add(this, gbl, filename, 0, 0, 1, 1, 1, 1);
+		
+		contentPane = new ContentPane(this);
+		Components.add(this, gbl, contentPane, 0, 1, 1, 1, 0, 1);
+		controlPane = new ControlPane(this);
+		Components.add(this, gbl, controlPane, 0, 2, 1, 1, 0, 0);
+		
+		JScrollPane scrollConsole = new JScrollPane(console);
+		Components.add(this, gbl, scrollConsole, 0, 3, 1, 1, 1, 0);
+		Components.add(this, gbl, logoLabel, 1, 3, 1, 1, 0, 0);
+		
+		/*Add listener*/
+		this.controller.addFeatureDataListener(this);
+		
+		}
+	
+	/**
+	 * Getter for MainController
+	 * @return this.controller
+	 */
+	public MainController getController() {
+		return this.controller;
+	}
+	
+	/**
+	 * Getter for the resultsView
+	 * @return JFrame resultsView
+	 */
+	public JFrame getResultsView() {
+		return resultsView;
+	}
+	
+	public void setResultsView(ResultsView view) {
+		this.resultsView = view;
+	}
+
+	/**
+	 * Receives FeatureDataEvent and sets the title of the main window
+	 * to the file we're working with
+	 */
+	@Override
+	public void featureDataUpdated(FeatureDataEvent e) {
+		this.setTitle("Feature Selection - " + e.getFile().getName());
+		this.filename.setText("File to process : " +e.getFile().getAbsolutePath());
+		this.controller.getOutput().println("Reader: successfully created data from file " + e.getFile().getName());
+	}
+}

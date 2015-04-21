@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/R4da598c71e832/!svn/ver/125/FeatureSelection/resources/LibSvm
+END
+libsvm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/R4da598c71e832/!svn/ver/125/FeatureSelection/resources/LibSvm/libsvm.jar
+END
+test_applet.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/R4da598c71e832/!svn/ver/125/FeatureSelection/resources/LibSvm/test_applet.html
+END
+svm_toy.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/R4da598c71e832/!svn/ver/125/FeatureSelection/resources/LibSvm/svm_toy.java
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/R4da598c71e832/!svn/ver/125/FeatureSelection/resources/LibSvm/Makefile
+END
+svm_scale.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/R4da598c71e832/!svn/ver/125/FeatureSelection/resources/LibSvm/svm_scale.java
+END
+svm_predict.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/R4da598c71e832/!svn/ver/125/FeatureSelection/resources/LibSvm/svm_predict.java
+END
+svm_train.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/R4da598c71e832/!svn/ver/125/FeatureSelection/resources/LibSvm/svm_train.java
+END

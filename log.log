@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2011-07-06T12:31:25</date>
+  <millis>1309948285885</millis>
+  <sequence>0</sequence>
+  <logger>gui.FeatureSelectionLauncher</logger>
+  <level>INFO</level>
+  <class>gui.FeatureSelectionLauncher</class>
+  <method>main</method>
+  <thread>10</thread>
+  <message>GUI started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2011-07-06T12:33:47</date>
+  <millis>1309948427684</millis>
+  <sequence>0</sequence>
+  <logger>gui.FeatureSelectionLauncher</logger>
+  <level>INFO</level>
+  <class>gui.FeatureSelectionLauncher</class>
+  <method>main</method>
+  <thread>10</thread>
+  <message>GUI started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2011-07-11T15:04:26</date>
+  <millis>1310389466983</millis>
+  <sequence>0</sequence>
+  <logger>gui.FeatureSelectionLauncher</logger>
+  <level>INFO</level>
+  <class>gui.FeatureSelectionLauncher</class>
+  <method>main</method>
+  <thread>10</thread>
+  <message>GUI started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2011-10-18T12:07:31</date>
+  <millis>1318932451187</millis>
+  <sequence>0</sequence>
+  <logger>gui.FeatureSelectionLauncher</logger>
+  <level>INFO</level>
+  <class>gui.FeatureSelectionLauncher</class>
+  <method>main</method>
+  <thread>10</thread>
+  <message>GUI started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2015-04-18T17:52:25</date>
+  <millis>1429372345615</millis>
+  <sequence>0</sequence>
+  <logger>gui.FeatureSelectionLauncher</logger>
+  <level>INFO</level>
+  <class>gui.FeatureSelectionLauncher</class>
+  <method>main</method>
+  <thread>10</thread>
+  <message>GUI started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2015-04-18T17:56:32</date>
+  <millis>1429372592949</millis>
+  <sequence>0</sequence>
+  <logger>gui.FeatureSelectionLauncher</logger>
+  <level>INFO</level>
+  <class>gui.FeatureSelectionLauncher</class>
+  <method>main</method>
+  <thread>10</thread>
+  <message>GUI started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2015-04-18T17:57:11</date>
+  <millis>1429372631589</millis>
+  <sequence>0</sequence>
+  <logger>gui.FeatureSelectionLauncher</logger>
+  <level>INFO</level>
+  <class>gui.FeatureSelectionLauncher</class>
+  <method>main</method>
+  <thread>10</thread>
+  <message>GUI started</message>
+</record>
+</log>

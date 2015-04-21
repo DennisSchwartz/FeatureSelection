@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/R4da598c71e832/!svn/ver/125/FeatureSelection/resources/LibSvm/libsvm
+END
+svm.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/R4da598c71e832/!svn/ver/125/FeatureSelection/resources/LibSvm/libsvm/svm.java
+END
+svm_problem.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/R4da598c71e832/!svn/ver/125/FeatureSelection/resources/LibSvm/libsvm/svm_problem.java
+END
+svm_node.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/R4da598c71e832/!svn/ver/125/FeatureSelection/resources/LibSvm/libsvm/svm_node.java
+END
+svm.m4
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/R4da598c71e832/!svn/ver/125/FeatureSelection/resources/LibSvm/libsvm/svm.m4
+END
+svm_model.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/R4da598c71e832/!svn/ver/125/FeatureSelection/resources/LibSvm/libsvm/svm_model.java
+END
+svm_parameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/R4da598c71e832/!svn/ver/125/FeatureSelection/resources/LibSvm/libsvm/svm_parameter.java
+END
+svm_print_interface.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/R4da598c71e832/!svn/ver/125/FeatureSelection/resources/LibSvm/libsvm/svm_print_interface.java
+END

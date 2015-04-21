@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/R4da598c71e832/!svn/ver/266/FeatureSelection/src/controller
+END
+FeatureDataEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/R4da598c71e832/!svn/ver/239/FeatureSelection/src/controller/FeatureDataEvent.java
+END
+BestSubsetListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/R4da598c71e832/!svn/ver/211/FeatureSelection/src/controller/BestSubsetListener.java
+END
+WrapperEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/R4da598c71e832/!svn/ver/244/FeatureSelection/src/controller/WrapperEvent.java
+END
+WrapperListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/R4da598c71e832/!svn/ver/223/FeatureSelection/src/controller/WrapperListener.java
+END
+MainController.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/R4da598c71e832/!svn/ver/258/FeatureSelection/src/controller/MainController.java
+END
+FeatureDataListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/R4da598c71e832/!svn/ver/223/FeatureSelection/src/controller/FeatureDataListener.java
+END
+BestSubsetEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/R4da598c71e832/!svn/ver/219/FeatureSelection/src/controller/BestSubsetEvent.java
+END

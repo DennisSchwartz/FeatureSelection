@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/R4da598c71e832/!svn/ver/264/FeatureSelection/src/wrapper
+END
+EvA2TerminatorTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/R4da598c71e832/!svn/ver/261/FeatureSelection/src/wrapper/EvA2TerminatorTypes.java
+END
+ForwardSelectionWrapperConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/R4da598c71e832/!svn/ver/239/FeatureSelection/src/wrapper/ForwardSelectionWrapperConfig.java
+END
+WrapperThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/R4da598c71e832/!svn/ver/244/FeatureSelection/src/wrapper/WrapperThread.java
+END
+ResultEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/R4da598c71e832/!svn/ver/250/FeatureSelection/src/wrapper/ResultEvent.java
+END
+ForwardSelectionWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/R4da598c71e832/!svn/ver/260/FeatureSelection/src/wrapper/ForwardSelectionWrapper.java
+END
+WrapperConfigBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/R4da598c71e832/!svn/ver/239/FeatureSelection/src/wrapper/WrapperConfigBase.java
+END
+WrapperTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/R4da598c71e832/!svn/ver/240/FeatureSelection/src/wrapper/WrapperTypes.java
+END
+WrapperBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/R4da598c71e832/!svn/ver/260/FeatureSelection/src/wrapper/WrapperBase.java
+END
+EvA2WrapperConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/R4da598c71e832/!svn/ver/261/FeatureSelection/src/wrapper/EvA2WrapperConfig.java
+END
+EvA2Wrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/R4da598c71e832/!svn/ver/264/FeatureSelection/src/wrapper/EvA2Wrapper.java
+END
+ResultListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/R4da598c71e832/!svn/ver/240/FeatureSelection/src/wrapper/ResultListener.java
+END
+WrapperThreadListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/R4da598c71e832/!svn/ver/236/FeatureSelection/src/wrapper/WrapperThreadListener.java
+END

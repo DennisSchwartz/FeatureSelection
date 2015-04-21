@@ -1,0 +1,67 @@
+package wrapper.crossvalidation;
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import dataStructures.ConfusionMatrix;
+
+import wrapper.crossvalidation.classifier.CSVCClassifier;
+import wrapper.crossvalidation.classifier.CSVCClassifierConfig;
+
+public class CrossValidationBaseJUnit {
+	
+	//creates a test object
+	CSVCClassifier classify = new CSVCClassifier(new CSVCClassifierConfig());
+	CrossValidationBase test = new KFoldCrossValidation(new KFoldCrossValidationConfig());
+	
+	//creates a List that simulates a classifier output
+	List<Boolean> innerList = new ArrayList<Boolean>();			// first list one false negative, second list is one false positive, last list is true negative
+	List<List<Boolean>> predictList= new ArrayList<List<Boolean>>(); // List(List(true,false), List(true, true), List(false));
+	
+	//expected confusionmatrix of the simulated predictList
+	ConfusionMatrix expectedResult;
+	
+
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+	}
+
+	@Before
+	public void setUp() throws Exception {
+		//fills the list of what simulates a classifier output
+		this.innerList.add(true);
+		this.innerList.add(true);
+		this.predictList.add(innerList);
+		this.innerList.clear();
+		this.innerList.add(true);
+		this.innerList.add(true);
+		this.predictList.add(innerList);
+		this.innerList.clear();
+		this.innerList.add(false);
+		this.predictList.add(innerList);
+		this.innerList.clear();		
+		this.expectedResult = new ConfusionMatrix(2, 1, 1, 1);
+		test.predictList = this.predictList;
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void testCalculateConfusionMatrix() {
+		assert(test.calculateConfusionMatrix() == this.expectedResult);
+	}
+
+}

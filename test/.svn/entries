@@ -1,0 +1,37 @@
+10
+
+dir
+276
+https://cis.informatik.uni-tuebingen.de/svn/R4da598c71e832/FeatureSelection/test
+https://cis.informatik.uni-tuebingen.de/svn/R4da598c71e832
+
+
+
+2011-06-09T16:08:12.268212Z
+225
+se-ss-11.zxmjj33
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+306acf76-1127-4f1b-8af4-30131f42fad4
+
+dataStructures
+dir
+
+reader
+dir
+
+wrapper
+dir
+
